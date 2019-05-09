@@ -1,0 +1,55 @@
+ plugins {
+    id 'com.redpillanalytics.checkmate.obi' version "10.1.2"
+  }
+
+obi {
+
+	compatibility = "12.2.1.4"
+
+	repositoryMode = "dir"
+
+	sourceBase = "C:/git/checkmate-training/src/main"
+
+	middlewareHome = "C:/fmw/product/12.2.1.4/user_projects/domains/bi"
+
+	domainHome = "C:/fmw/product/12.2.1.4/user_projects/domains/bi"
+
+	adminUser = "weblogic"
+
+	adminPassword = "Admin123"
+
+	repositoryPassword = "Admin123"
+
+	metadataProject = ""
+
+	biHost = "10.1.1.1"
+
+	biPort = "9502"
+
+	publishBase = "brokerage"
+
+	serviceInstance = "ssi"
+
+	useRestApi = true
+
+	
+forceCatalogArchive = false
+
+	forceOnlineCatalog = false
+
+publishing {
+  repositories {
+    maven {
+      name "brokerage"
+      url "C:/Users/training/Downloads"
+    }
+  }
+}
+
+version = "1.0.0"
+
+}
+
+dependencies {
+  obiee 'com.redpillanalytics:checkmate-obi:+'
+}
