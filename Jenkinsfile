@@ -1,8 +1,9 @@
 #!/usr/bin/env groovy
 
+def path = "C:\git\checkmate-obi-training"
 def options = '-Si'
 def properties = "-PbuildId=${env.BUILD_TAG}"
-def checkmate = "./gradlew ${options} ${properties}"
+def checkmate = "${path}\gradlew ${options} ${properties}"
 
 pipeline {
     agent {
@@ -12,7 +13,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                bat"${checkmate} metadataBuild"
             }
         }
         stage('Test') {
