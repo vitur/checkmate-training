@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="m80000000-1140-15ad-b23c-0a00020f0000" name="Account Activity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m40000002-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m40000000-73c2-15ad-b23c-0a00020f0000" name="ACTIVITY_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m00000000-73b7-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000001-1140-15ad-b23c-0a00020f0000" name="ACCOUNT_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m40000003-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000002-1140-15ad-b23c-0a00020f0000" name="ACTIVITY_COUNT" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m40000004-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000003-1140-15ad-b23c-0a00020f0000" name="ACTIVITY_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m40000005-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000004-1140-15ad-b23c-0a00020f0000" name="ACTIVITY_DATE_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m40000006-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000005-1140-15ad-b23c-0a00020f0000" name="ACTIVITY_TYPE" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m40000007-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000006-1140-15ad-b23c-0a00020f0000" name="BATCH_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m40000008-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000007-1140-15ad-b23c-0a00020f0000" name="BROKER_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m40000009-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000008-1140-15ad-b23c-0a00020f0000" name="CUSTOMER_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000002-10e8-15ad-b23c-0a00020f0000.xml#m4000000a-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="mc0000000-146d-15ad-b23c-0a00020f0000" name="Account Activity_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#mc0000000-1167-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="mc0000000-146d-15ad-b23c-0a00020f0000-m80000008-1140-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-1140-15ad-b23c-0a00020f0000.xml#m80000008-1140-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-155f-15ad-b23c-0a00020f0000" name="Account Activity_Foreign Key#3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m40000000-1550-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m00000000-155f-15ad-b23c-0a00020f0000-m80000004-1140-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-1140-15ad-b23c-0a00020f0000.xml#m80000004-1140-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-1468-15ad-b23c-0a00020f0000" name="Account Activity_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m80000000-145f-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m80000000-1468-15ad-b23c-0a00020f0000-m80000007-1140-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-1140-15ad-b23c-0a00020f0000.xml#m80000007-1140-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-146b-15ad-b23c-0a00020f0000" name="Account Activity_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-110e-15ad-b23c-0a00020f0000.xml#m80000000-1461-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m40000000-146b-15ad-b23c-0a00020f0000-m80000001-1140-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-1140-15ad-b23c-0a00020f0000.xml#m80000001-1140-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

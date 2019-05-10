@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<LogicalTable mdsid="m4000000c-1484-15ad-b23c-0a00020f0000" name="Broker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-1477-15ad-b23c-0a00020f0000.xml#m00000000-1477-15ad-b23c-0a00020f0000">
+<LogicalColumn mdsid="m40000011-1484-15ad-b23c-0a00020f0000" name="Broker Key" isWriteable="false">
+<AttributeDefn mdsid="m00000001-01f4-0000-f76a-10c000000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."BROKER_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-f76a-10c000000000-m00000004-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m00000004-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000010-1484-15ad-b23c-0a00020f0000" name="Broker ID" isWriteable="false">
+<AttributeDefn mdsid="m00000002-01f4-0000-8232-d28400000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."BROKER_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-8232-d28400000000-m00000003-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m00000003-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000017-1484-15ad-b23c-0a00020f0000" name="Manager ID" isWriteable="false">
+<AttributeDefn mdsid="m00000003-01f4-0000-3033-d38300000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."MANAGER_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-3033-d38300000000-m0000000a-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m0000000a-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000000f-1484-15ad-b23c-0a00020f0000" name="Branch" isWriteable="false">
+<AttributeDefn mdsid="m00000004-01f4-0000-9e63-128f00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."BRANCH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-9e63-128f00000000-m00000002-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m00000002-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000014-1484-15ad-b23c-0a00020f0000" name="First Name" isWriteable="false">
+<AttributeDefn mdsid="m00000005-01f4-0000-e498-665900000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."FIRST_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-e498-665900000000-m00000007-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m00000007-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000018-1484-15ad-b23c-0a00020f0000" name="Middle Name" isWriteable="false">
+<AttributeDefn mdsid="m00000006-01f4-0000-d408-dfb100000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."MIDDLE_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-d408-dfb100000000-m0000000b-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m0000000b-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000016-1484-15ad-b23c-0a00020f0000" name="Last Name" isWriteable="false">
+<AttributeDefn mdsid="m00000007-01f4-0000-11a4-828c00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."LAST_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-11a4-828c00000000-m00000009-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m00000009-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000019-1484-15ad-b23c-0a00020f0000" name="Office" isWriteable="false">
+<AttributeDefn mdsid="m00000008-01f4-0000-4d58-ce0900000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."OFFICE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-4d58-ce0900000000-m0000000c-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m0000000c-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m4000001a-1484-15ad-b23c-0a00020f0000" name="Phone" isWriteable="false">
+<AttributeDefn mdsid="m00000009-01f4-0000-f1a9-1f9e00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."PHONE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-f1a9-1f9e00000000-m0000000d-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m0000000d-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000015-1484-15ad-b23c-0a00020f0000" name="Is Current" isWriteable="false">
+<AttributeDefn mdsid="m0000000a-01f4-0000-0552-831500000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."IS_CURRENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-0552-831500000000-m00000008-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m00000008-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000012-1484-15ad-b23c-0a00020f0000" name="Effective Date" isWriteable="false">
+<AttributeDefn mdsid="m0000000b-01f4-0000-73f8-a1ee00000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."EFFECTIVE_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-73f8-a1ee00000000-m00000005-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m00000005-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalColumn mdsid="m40000013-1484-15ad-b23c-0a00020f0000" name="Expiration Date" isWriteable="false">
+<AttributeDefn mdsid="m0000000c-01f4-0000-3912-4a1900000000" name="AttributeDefn">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Broker"."EXPIRATION_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-3912-4a1900000000-m00000006-111f-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m00000006-111f-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</AttributeDefn>
+</LogicalColumn>
+<LogicalKey mdsid="m4000001b-1484-15ad-b23c-0a00020f0000" name="Broker_Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m4000001b-1484-15ad-b23c-0a00020f0000-m40000011-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000011-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefTableSources>
+<RefLogicalTableSource refId="m4000000c-1484-15ad-b23c-0a00020f0000-m4000000d-1484-15ad-b23c-0a00020f0000" logicalTableSourceRef="/oracle/bi/server/base/LogicalTableSource/4000000d-1484-15ad-b23c-0a00020f0000.xml#m4000000d-1484-15ad-b23c-0a00020f0000"/>
+</RefTableSources>
+</LogicalTable>

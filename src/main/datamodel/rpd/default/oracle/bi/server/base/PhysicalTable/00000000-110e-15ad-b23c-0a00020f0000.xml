@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="m00000000-110e-15ad-b23c-0a00020f0000" name="Account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m4000000b-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m40000000-110e-15ad-b23c-0a00020f0000" name="ACCOUNT_DESC" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m4000000c-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000001-110e-15ad-b23c-0a00020f0000" name="ACCOUNT_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m4000000d-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000002-110e-15ad-b23c-0a00020f0000" name="ACCOUNT_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m4000000e-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000003-110e-15ad-b23c-0a00020f0000" name="BATCH_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m4000000f-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-110e-15ad-b23c-0a00020f0000" name="EFFECTIVE_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m40000010-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000005-110e-15ad-b23c-0a00020f0000" name="EXPIRATION_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m40000011-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000006-110e-15ad-b23c-0a00020f0000" name="IS_CURRENT" dataType="VARCHAR" precision="1" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m40000012-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000007-110e-15ad-b23c-0a00020f0000" name="STATUS" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m40000013-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000008-110e-15ad-b23c-0a00020f0000" name="TAX_STATUS" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/4000000b-10e8-15ad-b23c-0a00020f0000.xml#m40000014-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m80000000-1461-15ad-b23c-0a00020f0000" name="Account_Key">
+<RefColumns>
+<RefColumn refId="m80000000-1461-15ad-b23c-0a00020f0000-m40000002-110e-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/00000000-110e-15ad-b23c-0a00020f0000.xml#m40000002-110e-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<LogicalTableSource mdsid="m40000000-85d3-16f3-ac27-0a8e00030000" name="Legacy Trades" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000061-1484-15ad-b23c-0a00020f0000">
+<WhereClause mdsid="m00000001-01f4-0000-43e5-4a4200000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000002-01f4-0000-f540-f78b00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000003-01f4-0000-a4ca-84a000000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

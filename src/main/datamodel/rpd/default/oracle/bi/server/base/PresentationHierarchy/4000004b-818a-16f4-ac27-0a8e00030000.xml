@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationHierarchy mdsid="m4000004b-818a-16f4-ac27-0a8e00030000" name="Conformed Date - Fiscal Year" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m40000045-818a-16f4-ac27-0a8e00030000" logicalDimensionRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#mc0000000-18de-15ad-b23c-0a00020f0000">
+<PresentationLevel mdsid="m4000005d-818a-16f4-ac27-0a8e00030000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4000004b-818a-16f4-ac27-0a8e00030000.xml#m4000004b-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m00000000-1913-15ad-b23c-0a00020f0000">
+</PresentationLevel>
+<PresentationLevel mdsid="m4000005f-818a-16f4-ac27-0a8e00030000" name="Fiscal Year" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4000004b-818a-16f4-ac27-0a8e00030000.xml#m4000004b-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m80000000-1956-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m4000005f-818a-16f4-ac27-0a8e00030000-m4000003f-818a-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m4000003f-818a-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m40000061-818a-16f4-ac27-0a8e00030000" name="Fiscal Quarter" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4000004b-818a-16f4-ac27-0a8e00030000.xml#m4000004b-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m40000000-195f-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m40000061-818a-16f4-ac27-0a8e00030000-m4000003b-818a-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m4000003b-818a-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m40000063-818a-16f4-ac27-0a8e00030000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/4000004b-818a-16f4-ac27-0a8e00030000.xml#m4000004b-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m40000000-192f-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m40000063-818a-16f4-ac27-0a8e00030000-m40000023-818a-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m40000023-818a-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

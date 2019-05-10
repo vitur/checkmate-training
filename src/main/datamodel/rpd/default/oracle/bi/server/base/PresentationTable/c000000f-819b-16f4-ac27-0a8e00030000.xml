@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationTable mdsid="mc000000f-819b-16f4-ac27-0a8e00030000" name="Trade Attributes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-818e-16f4-ac27-0a8e00030000.xml#m00000000-818e-16f4-ac27-0a8e00030000">
+<PresentationColumn mdsid="mc0000005-819b-16f4-ac27-0a8e00030000" name="Trade ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000073-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000007-819b-16f4-ac27-0a8e00030000" name="Cash Flag" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000067-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000009-819b-16f4-ac27-0a8e00030000" name="Executed By" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m4000006d-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000b-819b-16f4-ac27-0a8e00030000" name="Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000071-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000d-819b-16f4-ac27-0a8e00030000" name="Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000075-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+</PresentationTable>

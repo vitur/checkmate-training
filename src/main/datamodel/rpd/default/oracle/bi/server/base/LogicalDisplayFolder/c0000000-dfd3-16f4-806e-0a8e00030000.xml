@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<LogicalDisplayFolder mdsid="mc0000000-dfd3-16f4-806e-0a8e00030000" name="Hierarchies" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-1477-15ad-b23c-0a00020f0000.xml#m00000000-1477-15ad-b23c-0a00020f0000">
+<RefDimensions>
+<RefDimension refId="mc0000000-dfd3-16f4-806e-0a8e00030000-m40000000-1619-15ad-b23c-0a00020f0000" dimensionRef="/oracle/bi/server/base/Dimension/40000000-1619-15ad-b23c-0a00020f0000.xml#m40000000-1619-15ad-b23c-0a00020f0000"/>
+<RefDimension refId="mc0000000-dfd3-16f4-806e-0a8e00030000-m00000000-168e-15ad-b23c-0a00020f0000" dimensionRef="/oracle/bi/server/base/Dimension/00000000-168e-15ad-b23c-0a00020f0000.xml#m00000000-168e-15ad-b23c-0a00020f0000"/>
+<RefDimension refId="mc0000000-dfd3-16f4-806e-0a8e00030000-m40000000-16b3-15ad-b23c-0a00020f0000" dimensionRef="/oracle/bi/server/base/Dimension/40000000-16b3-15ad-b23c-0a00020f0000.xml#m40000000-16b3-15ad-b23c-0a00020f0000"/>
+<RefDimension refId="mc0000000-dfd3-16f4-806e-0a8e00030000-m40000000-1715-15ad-b23c-0a00020f0000" dimensionRef="/oracle/bi/server/base/Dimension/40000000-1715-15ad-b23c-0a00020f0000.xml#m40000000-1715-15ad-b23c-0a00020f0000"/>
+<RefDimension refId="mc0000000-dfd3-16f4-806e-0a8e00030000-mc0000000-18de-15ad-b23c-0a00020f0000" dimensionRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#mc0000000-18de-15ad-b23c-0a00020f0000"/>
+<RefDimension refId="mc0000000-dfd3-16f4-806e-0a8e00030000-m00000000-177f-15ad-b23c-0a00020f0000" dimensionRef="/oracle/bi/server/base/Dimension/00000000-177f-15ad-b23c-0a00020f0000.xml#m00000000-177f-15ad-b23c-0a00020f0000"/>
+<RefDimension refId="mc0000000-dfd3-16f4-806e-0a8e00030000-m00000000-186d-15ad-b23c-0a00020f0000" dimensionRef="/oracle/bi/server/base/Dimension/00000000-186d-15ad-b23c-0a00020f0000.xml#m00000000-186d-15ad-b23c-0a00020f0000"/>
+<RefDimension refId="mc0000000-dfd3-16f4-806e-0a8e00030000-m00000000-9075-16f4-806e-0a8e00030000" dimensionRef="/oracle/bi/server/base/Dimension/00000000-9075-16f4-806e-0a8e00030000.xml#m00000000-9075-16f4-806e-0a8e00030000"/>
+</RefDimensions>
+</LogicalDisplayFolder>

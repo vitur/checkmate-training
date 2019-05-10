@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Dimension mdsid="m00000000-9075-16f4-806e-0a8e00030000" name="Trade" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/00000000-9075-16f4-806e-0a8e00030000.xml#m00000003-9075-16f4-806e-0a8e00030000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-1477-15ad-b23c-0a00020f0000.xml#m00000000-1477-15ad-b23c-0a00020f0000">
+<LogicalLevel mdsid="m00000003-9075-16f4-806e-0a8e00030000" name="Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m00000003-9075-16f4-806e-0a8e00030000_m80000000-9086-16f4-806e-0a8e00030000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-9075-16f4-806e-0a8e00030000.xml#m80000000-9086-16f4-806e-0a8e00030000"/>
+<RefLogicalLevel refId="m00000003-9075-16f4-806e-0a8e00030000_mc0000000-9096-16f4-806e-0a8e00030000_2" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-9075-16f4-806e-0a8e00030000.xml#mc0000000-9096-16f4-806e-0a8e00030000"/>
+</RefChildLevels>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m80000000-9086-16f4-806e-0a8e00030000" name="Cash Flag" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Cash Flag&apos;">
+<LogicalKey mdsid="m80000000-9090-16f4-806e-0a8e00030000" name="Cash Flag" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000000-9090-16f4-806e-0a8e00030000-m40000067-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000067-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m80000000-9086-16f4-806e-0a8e00030000_m00000001-9075-16f4-806e-0a8e00030000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-9075-16f4-806e-0a8e00030000.xml#m00000001-9075-16f4-806e-0a8e00030000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m80000000-9086-16f4-806e-0a8e00030000-m40000067-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000067-1484-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m00000001-9075-16f4-806e-0a8e00030000" name="Detail" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Detail&apos;">
+<LogicalKey mdsid="m00000002-9075-16f4-806e-0a8e00030000" name="Trade Attributes Detail_Key" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000002-9075-16f4-806e-0a8e00030000-m40000073-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000073-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m00000001-9075-16f4-806e-0a8e00030000-m40000073-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000073-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="m00000001-9075-16f4-806e-0a8e00030000-m4000006d-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m4000006d-1484-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="mc0000000-9096-16f4-806e-0a8e00030000" name="Status" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Status&apos;">
+<LogicalKey mdsid="mc0000000-90a2-16f4-806e-0a8e00030000" name="Status" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mc0000000-90a2-16f4-806e-0a8e00030000-m40000071-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000071-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="mc0000000-9096-16f4-806e-0a8e00030000_m00000000-90af-16f4-806e-0a8e00030000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-9075-16f4-806e-0a8e00030000.xml#m00000000-90af-16f4-806e-0a8e00030000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mc0000000-9096-16f4-806e-0a8e00030000-m40000071-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000071-1484-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m00000000-90af-16f4-806e-0a8e00030000" name="Type" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Type&apos;">
+<LogicalKey mdsid="m80000000-90b5-16f4-806e-0a8e00030000" name="Type" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000000-90b5-16f4-806e-0a8e00030000-m40000075-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000075-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m00000000-90af-16f4-806e-0a8e00030000_m00000001-9075-16f4-806e-0a8e00030000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-9075-16f4-806e-0a8e00030000.xml#m00000001-9075-16f4-806e-0a8e00030000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m00000000-90af-16f4-806e-0a8e00030000-m40000075-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000075-1484-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+</Dimension>

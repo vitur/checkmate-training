@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<LogicalDisplayFolder mdsid="m00000000-3635-15ae-8c48-0a00020f0000" name="Dimensions Tables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-1477-15ad-b23c-0a00020f0000.xml#m00000000-1477-15ad-b23c-0a00020f0000">
+<RefTables>
+<RefLogicalTable refId="m00000000-3635-15ae-8c48-0a00020f0000-m40000000-1484-15ad-b23c-0a00020f0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000000-1484-15ad-b23c-0a00020f0000.xml#m40000000-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalTable refId="m00000000-3635-15ae-8c48-0a00020f0000-m00000000-148f-15ad-b23c-0a00020f0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/00000000-148f-15ad-b23c-0a00020f0000.xml#m00000000-148f-15ad-b23c-0a00020f0000"/>
+<RefLogicalTable refId="m00000000-3635-15ae-8c48-0a00020f0000-m4000000c-1484-15ad-b23c-0a00020f0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m4000000c-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalTable refId="m00000000-3635-15ae-8c48-0a00020f0000-m4000001c-1484-15ad-b23c-0a00020f0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000001c-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalTable refId="m00000000-3635-15ae-8c48-0a00020f0000-mc0000000-156a-15ad-b23c-0a00020f0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000000-156a-15ad-b23c-0a00020f0000"/>
+<RefLogicalTable refId="m00000000-3635-15ae-8c48-0a00020f0000-m40000033-1484-15ad-b23c-0a00020f0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000033-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalTable refId="m00000000-3635-15ae-8c48-0a00020f0000-m40000050-1484-15ad-b23c-0a00020f0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000050-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalTable refId="m00000000-3635-15ae-8c48-0a00020f0000-m40000000-148b-15ad-b23c-0a00020f0000" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000000-148b-15ad-b23c-0a00020f0000.xml#m40000000-148b-15ad-b23c-0a00020f0000"/>
+</RefTables>
+</LogicalDisplayFolder>

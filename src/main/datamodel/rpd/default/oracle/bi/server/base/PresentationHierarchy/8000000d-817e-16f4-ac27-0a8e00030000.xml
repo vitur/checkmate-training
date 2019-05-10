@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationHierarchy mdsid="m8000000d-817e-16f4-ac27-0a8e00030000" name="Account Activity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/8000000b-817e-16f4-ac27-0a8e00030000.xml#m8000000b-817e-16f4-ac27-0a8e00030000" logicalDimensionRef="/oracle/bi/server/base/Dimension/00000000-168e-15ad-b23c-0a00020f0000.xml#m00000000-168e-15ad-b23c-0a00020f0000">
+<PresentationLevel mdsid="m8000000f-817e-16f4-ac27-0a8e00030000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/8000000d-817e-16f4-ac27-0a8e00030000.xml#m8000000d-817e-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-168e-15ad-b23c-0a00020f0000.xml#m40000000-1691-15ad-b23c-0a00020f0000">
+</PresentationLevel>
+<PresentationLevel mdsid="m80000011-817e-16f4-ac27-0a8e00030000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/8000000d-817e-16f4-ac27-0a8e00030000.xml#m8000000d-817e-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-168e-15ad-b23c-0a00020f0000.xml#m80000000-1693-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m80000011-817e-16f4-ac27-0a8e00030000-m80000007-817e-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/8000000b-817e-16f4-ac27-0a8e00030000.xml#m80000007-817e-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

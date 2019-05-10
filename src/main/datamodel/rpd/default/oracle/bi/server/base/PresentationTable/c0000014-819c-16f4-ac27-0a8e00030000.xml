@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationTable mdsid="mc0000014-819c-16f4-ac27-0a8e00030000" name="Trades" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-818e-16f4-ac27-0a8e00030000.xml#m00000000-818e-16f4-ac27-0a8e00030000">
+<PresentationColumn mdsid="mc0000008-819c-16f4-ac27-0a8e00030000" name="Bid Price" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000065-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000a-819c-16f4-ac27-0a8e00030000" name="Commission" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000068-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000c-819c-16f4-ac27-0a8e00030000" name="Fee" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m4000006e-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc000000e-819c-16f4-ac27-0a8e00030000" name="Quantity" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m4000006f-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000010-819c-16f4-ac27-0a8e00030000" name="Tax" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000072-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="mc0000012-819c-16f4-ac27-0a8e00030000" name="Trade Price" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000074-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000000-65bd-171b-9649-0a8e00100000" name="Trade Price#1" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000074-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+</PresentationTable>

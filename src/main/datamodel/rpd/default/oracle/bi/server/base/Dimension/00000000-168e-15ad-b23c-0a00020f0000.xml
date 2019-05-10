@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Dimension mdsid="m00000000-168e-15ad-b23c-0a00020f0000" name="Account Activity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/00000000-168e-15ad-b23c-0a00020f0000.xml#m40000000-1691-15ad-b23c-0a00020f0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-1477-15ad-b23c-0a00020f0000.xml#m00000000-1477-15ad-b23c-0a00020f0000">
+<LogicalLevel mdsid="m40000000-1691-15ad-b23c-0a00020f0000" name="Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m40000000-1691-15ad-b23c-0a00020f0000_m80000000-1693-15ad-b23c-0a00020f0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-168e-15ad-b23c-0a00020f0000.xml#m80000000-1693-15ad-b23c-0a00020f0000"/>
+</RefChildLevels>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m80000000-1693-15ad-b23c-0a00020f0000" name="Detail" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Detail&apos;">
+<LogicalKey mdsid="m00000000-73d5-15ad-b23c-0a00020f0000" name="Activity ID" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000000-73d5-15ad-b23c-0a00020f0000-m80000002-73c6-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-148f-15ad-b23c-0a00020f0000.xml#m80000002-73c6-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m80000000-1693-15ad-b23c-0a00020f0000-m40000081-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-148f-15ad-b23c-0a00020f0000.xml#m40000081-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="m80000000-1693-15ad-b23c-0a00020f0000-m80000002-73c6-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-148f-15ad-b23c-0a00020f0000.xml#m80000002-73c6-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+</Dimension>

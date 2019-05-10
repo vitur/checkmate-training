@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalDisplayFolder mdsid="m00000000-113b-15ad-b23c-0a00020f0000" name="Fact Tables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" databaseRef="/oracle/bi/server/base/Database/40000000-10e8-15ad-b23c-0a00020f0000.xml#m40000000-10e8-15ad-b23c-0a00020f0000">
+<RefTables>
+<RefPhysicalTable refId="m00000000-113b-15ad-b23c-0a00020f0000-m80000000-113d-15ad-b23c-0a00020f0000" tableRef="/oracle/bi/server/base/PhysicalTable/80000000-113d-15ad-b23c-0a00020f0000.xml#m80000000-113d-15ad-b23c-0a00020f0000"/>
+<RefPhysicalTable refId="m00000000-113b-15ad-b23c-0a00020f0000-m80000000-1140-15ad-b23c-0a00020f0000" tableRef="/oracle/bi/server/base/PhysicalTable/80000000-1140-15ad-b23c-0a00020f0000.xml#m80000000-1140-15ad-b23c-0a00020f0000"/>
+</RefTables>
+</PhysicalDisplayFolder>

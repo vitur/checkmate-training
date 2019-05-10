@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<LogicalTableSource mdsid="m40000034-1484-15ad-b23c-0a00020f0000" name="Customer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000033-1484-15ad-b23c-0a00020f0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-1208-0cab00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Customer Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-1208-0cab00000000-m4000003b-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000003b-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-eb9b-dd5e00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."CUSTOMER_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-eb9b-dd5e00000000-m80000007-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000007-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-d604-d4b100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Customer ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-d604-d4b100000000-m4000003a-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000003a-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-9b53-c49500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."CUSTOMER_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-9b53-c49500000000-m80000006-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000006-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-95ed-644800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Tax ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-95ed-644800000000-m4000004d-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000004d-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-8eef-a9bd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."TAX_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-8eef-a9bd00000000-m80000019-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000019-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-0813-d10400000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."First Name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-0813-d10400000000-m40000041-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000041-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-d8d2-1eaa00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."FIRST_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-d8d2-1eaa00000000-m8000000d-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m8000000d-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-3224-b44c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Middle Initial"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-3224-b44c00000000-m40000046-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000046-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-bb43-5c9900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."MIDDLE_INITIAL"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-bb43-5c9900000000-m80000012-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000012-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-71b4-8e3700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Last Name"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-71b4-8e3700000000-m40000044-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000044-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-7230-b7cb00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."LAST_NAME"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-7230-b7cb00000000-m80000010-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000010-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-24e7-65b100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Address Line 1"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-24e7-65b100000000-m40000035-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000035-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-00b7-903700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."ADDRESS_LINE_1"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-00b7-903700000000-m80000001-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000001-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-b189-c51700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Address Line 2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-b189-c51700000000-m40000036-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000036-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-c795-318700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."ADDRESS_LINE_2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-c795-318700000000-m80000002-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000002-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-2cc4-910f00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."City"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-2cc4-910f00000000-m40000038-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000038-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-6efc-b0b600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."CITY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-6efc-b0b600000000-m80000004-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000004-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-c162-da9e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Country"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-c162-da9e00000000-m40000039-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000039-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-d0f0-953d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."COUNTRY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-d0f0-953d00000000-m80000005-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000005-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000015-01f4-0000-3a24-816600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Date Of Birth"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-3a24-816600000000-m4000003c-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000003c-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000016-01f4-0000-6b92-1efd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."DATE_OF_BIRTH"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-6b92-1efd00000000-m80000008-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000008-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000017-01f4-0000-f18f-44a900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Email 1"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-f18f-44a900000000-m4000003e-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000003e-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000018-01f4-0000-b80d-51fd00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."EMAIL_1"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-b80d-51fd00000000-m8000000a-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m8000000a-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000019-01f4-0000-399b-c31700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Email 2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000019-01f4-0000-399b-c31700000000-m4000003f-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000003f-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001a-01f4-0000-de9e-774f00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."EMAIL_2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001a-01f4-0000-de9e-774f00000000-m8000000b-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m8000000b-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001b-01f4-0000-6693-015200000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Gender"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001b-01f4-0000-6693-015200000000-m40000042-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000042-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001c-01f4-0000-31f7-5ec200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."GENDER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001c-01f4-0000-31f7-5ec200000000-m8000000e-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m8000000e-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001d-01f4-0000-059d-140700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Local Tax Rate ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001d-01f4-0000-059d-140700000000-m40000045-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000045-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001e-01f4-0000-01bf-bc4600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."LOCAL_TAX_RATE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001e-01f4-0000-01bf-bc4600000000-m80000011-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000011-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001f-01f4-0000-75f3-9b5500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."National Tax Rate ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001f-01f4-0000-75f3-9b5500000000-m40000047-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000047-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000020-01f4-0000-73f1-582600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."NATIONAL_TAX_RATE_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000020-01f4-0000-73f1-582600000000-m80000013-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000013-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000021-01f4-0000-a2ac-d27a00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Phone 1"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000021-01f4-0000-a2ac-d27a00000000-m40000048-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000048-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000022-01f4-0000-3e14-c2b300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."PHONE_1"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000022-01f4-0000-3e14-c2b300000000-m80000014-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000014-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000023-01f4-0000-598b-644800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Phone 2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000023-01f4-0000-598b-644800000000-m40000049-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000049-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000024-01f4-0000-573c-da3600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."PHONE_2"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000024-01f4-0000-573c-da3600000000-m80000015-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000015-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000025-01f4-0000-98ed-829c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Phone 3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000025-01f4-0000-98ed-829c00000000-m4000004a-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000004a-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000026-01f4-0000-c52b-106700000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."PHONE_3"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000026-01f4-0000-c52b-106700000000-m80000016-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000016-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000027-01f4-0000-0e00-7b0100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Postal Code"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000027-01f4-0000-0e00-7b0100000000-m4000004b-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000004b-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000028-01f4-0000-bf15-3e5c00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."POSTAL_CODE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000028-01f4-0000-bf15-3e5c00000000-m80000017-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000017-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000029-01f4-0000-3065-726300000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."State / Province"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000029-01f4-0000-3065-726300000000-m4000004c-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000004c-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002a-01f4-0000-befa-bf8400000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."STATE_PROV"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002a-01f4-0000-befa-bf8400000000-m80000018-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000018-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002b-01f4-0000-ae27-7e1900000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Tier"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002b-01f4-0000-ae27-7e1900000000-m4000004e-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000004e-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002c-01f4-0000-75a6-d41100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."TIER"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002c-01f4-0000-75a6-d41100000000-m8000001a-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m8000001a-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002d-01f4-0000-702c-c63d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Is Current"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002d-01f4-0000-702c-c63d00000000-m40000043-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000043-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000002e-01f4-0000-08d1-f42000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."IS_CURRENT"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002e-01f4-0000-08d1-f42000000000-m8000000f-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m8000000f-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000002f-01f4-0000-cb7f-f3bb00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Expiration Date"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000002f-01f4-0000-cb7f-f3bb00000000-m40000040-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m40000040-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000030-01f4-0000-c2ab-c6c500000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."EXPIRATION_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000030-01f4-0000-c2ab-c6c500000000-m8000000c-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m8000000c-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000031-01f4-0000-02cd-864000000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."Effective Date"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000031-01f4-0000-02cd-864000000000-m4000003d-1484-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m4000003d-1484-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000032-01f4-0000-48a6-7a9100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."EFFECTIVE_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000032-01f4-0000-48a6-7a9100000000-m80000009-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000009-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000033-01f4-0000-ebc8-256e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Customer"."City Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000033-01f4-0000-ebc8-256e00000000-m80000000-181a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/40000033-1484-15ad-b23c-0a00020f0000.xml#m80000000-181a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000034-01f4-0000-9c7a-07e600000000" name="Expr">
+<ExprText><![CDATA["%1" || '-' || "%2" ]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Customer"."STATE_PROV" || '-' || "service-orcl".""."EDW"."Customer"."CITY" ]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000034-01f4-0000-9c7a-07e600000000-m80000018-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000018-1128-15ad-b23c-0a00020f0000"/>
+<RefObject refId="m00000034-01f4-0000-9c7a-07e600000000-m80000004-1128-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000004-1128-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#m80000000-1128-15ad-b23c-0a00020f0000">
+</Link>
+<WhereClause mdsid="m00000035-01f4-0000-169e-ab5f00000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000036-01f4-0000-f7aa-253b00000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000037-01f4-0000-77d1-2f4f00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

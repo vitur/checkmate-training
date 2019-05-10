@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="m80000000-113d-15ad-b23c-0a00020f0000" name="Trades" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000010-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m80000001-113d-15ad-b23c-0a00020f0000" name="ACCOUNT_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000011-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000002-113d-15ad-b23c-0a00020f0000" name="BATCH_ID" dataType="INT" precision="5" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000012-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000003-113d-15ad-b23c-0a00020f0000" name="BID_PRICE" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000013-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000004-113d-15ad-b23c-0a00020f0000" name="BROKER_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000014-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000005-113d-15ad-b23c-0a00020f0000" name="CASH_FLAG" dataType="VARCHAR" precision="1" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000015-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000006-113d-15ad-b23c-0a00020f0000" name="COMMISSION" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000016-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000007-113d-15ad-b23c-0a00020f0000" name="COMPANY_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000017-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000008-113d-15ad-b23c-0a00020f0000" name="CREATE_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000018-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000009-113d-15ad-b23c-0a00020f0000" name="CREATE_DATE_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000019-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000000a-113d-15ad-b23c-0a00020f0000" name="CUSTOMER_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m8000001a-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000000b-113d-15ad-b23c-0a00020f0000" name="EXECUTED_BY" dataType="VARCHAR" precision="64" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m8000001b-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000000c-113d-15ad-b23c-0a00020f0000" name="FEE" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m8000001c-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000000d-113d-15ad-b23c-0a00020f0000" name="QUANTITY" dataType="INT" precision="6" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m8000001d-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000000e-113d-15ad-b23c-0a00020f0000" name="SECURITY_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m8000001e-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000000f-113d-15ad-b23c-0a00020f0000" name="STATUS" dataType="VARCHAR" precision="10" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m8000001f-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000010-113d-15ad-b23c-0a00020f0000" name="TAX" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000020-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000011-113d-15ad-b23c-0a00020f0000" name="TRADE_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000021-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000012-113d-15ad-b23c-0a00020f0000" name="TRADE_PRICE" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000022-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000013-113d-15ad-b23c-0a00020f0000" name="TYPE" dataType="VARCHAR" precision="12" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/80000010-10e8-15ad-b23c-0a00020f0000.xml#m80000023-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalForeignKey mdsid="m00000000-1163-15ad-b23c-0a00020f0000" name="Trades_Foreign Key#1" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/80000000-1128-15ad-b23c-0a00020f0000.xml#mc0000000-1167-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m00000000-1163-15ad-b23c-0a00020f0000-m8000000a-113d-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-113d-15ad-b23c-0a00020f0000.xml#m8000000a-113d-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-1458-15ad-b23c-0a00020f0000" name="Trades_Foreign Key#2" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-1124-15ad-b23c-0a00020f0000.xml#mc0000000-145a-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="mc0000000-1458-15ad-b23c-0a00020f0000-m80000007-113d-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-113d-15ad-b23c-0a00020f0000.xml#m80000007-113d-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m00000000-1563-15ad-b23c-0a00020f0000" name="Trades_Foreign Key#5" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m40000000-1550-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m00000000-1563-15ad-b23c-0a00020f0000-m80000009-113d-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-113d-15ad-b23c-0a00020f0000.xml#m80000009-113d-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m80000000-145d-15ad-b23c-0a00020f0000" name="Trades_Foreign Key#3" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-111f-15ad-b23c-0a00020f0000.xml#m80000000-145f-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m80000000-145d-15ad-b23c-0a00020f0000-m80000004-113d-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-113d-15ad-b23c-0a00020f0000.xml#m80000004-113d-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="m40000000-1460-15ad-b23c-0a00020f0000" name="Trades_Foreign Key#4" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/00000000-110e-15ad-b23c-0a00020f0000.xml#m80000000-1461-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="m40000000-1460-15ad-b23c-0a00020f0000-m80000001-113d-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-113d-15ad-b23c-0a00020f0000.xml#m80000001-113d-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+<PhysicalForeignKey mdsid="mc0000000-115c-15ad-b23c-0a00020f0000" name="Trades_Foreign Key" counterPartKeyRef="/oracle/bi/server/base/PhysicalTable/c0000000-1137-15ad-b23c-0a00020f0000.xml#m40000000-1161-15ad-b23c-0a00020f0000">
+<RefColumns>
+<RefColumn refId="mc0000000-115c-15ad-b23c-0a00020f0000-m8000000e-113d-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/80000000-113d-15ad-b23c-0a00020f0000.xml#m8000000e-113d-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalForeignKey>
+</PhysicalTable>

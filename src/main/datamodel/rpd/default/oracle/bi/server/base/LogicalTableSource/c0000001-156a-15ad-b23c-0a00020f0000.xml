@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<LogicalTableSource mdsid="mc0000001-156a-15ad-b23c-0a00020f0000" name="Conformed Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isActive="true" logicalTableRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000000-156a-15ad-b23c-0a00020f0000">
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000001-01f4-0000-88c3-f83100000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Calendar Month Description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000001-01f4-0000-88c3-f83100000000-mc0000002-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000002-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000002-01f4-0000-e2f3-588900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."CALENDAR_MONTH_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000002-01f4-0000-e2f3-588900000000-m00000000-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000000-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000003-01f4-0000-285a-a3df00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Calendar Month ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000003-01f4-0000-285a-a3df00000000-mc0000003-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000003-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000004-01f4-0000-48ac-45f600000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."CALENDAR_MONTH_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000004-01f4-0000-48ac-45f600000000-m00000001-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000001-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000005-01f4-0000-18df-7d7d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Calendar Quarter Description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000005-01f4-0000-18df-7d7d00000000-mc0000004-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000004-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000006-01f4-0000-b2df-c5f100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."CALENDAR_QTR_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000006-01f4-0000-b2df-c5f100000000-m00000002-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000002-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000007-01f4-0000-1182-845700000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Calendar Quarter ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000007-01f4-0000-1182-845700000000-mc0000005-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000005-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000008-01f4-0000-5fa0-6ae000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."CALENDAR_QTR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000008-01f4-0000-5fa0-6ae000000000-m00000003-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000003-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000009-01f4-0000-55c7-fb6c00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Calendar Week Description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000009-01f4-0000-55c7-fb6c00000000-mc0000006-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000006-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000a-01f4-0000-b564-a5c900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."CALENDAR_WEEK_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000a-01f4-0000-b564-a5c900000000-m00000004-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000004-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000b-01f4-0000-e286-a9b600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Calendar Week ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000b-01f4-0000-e286-a9b600000000-mc0000007-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000007-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000c-01f4-0000-2add-59f100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."CALENDAR_WEEK_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000c-01f4-0000-2add-59f100000000-m00000005-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000005-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000d-01f4-0000-616f-aba600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Calendar Year Description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000d-01f4-0000-616f-aba600000000-mc0000008-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000008-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000000e-01f4-0000-5d10-e1e900000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."CALENDAR_YEAR_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000e-01f4-0000-5d10-e1e900000000-m00000006-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000006-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000000f-01f4-0000-68ac-b7f600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Calendar Year ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000000f-01f4-0000-68ac-b7f600000000-mc0000009-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000009-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000010-01f4-0000-e07b-9cf200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."CALENDAR_YEAR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000010-01f4-0000-e07b-9cf200000000-m00000007-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000007-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000011-01f4-0000-916f-10e800000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Date Description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000011-01f4-0000-916f-10e800000000-mc000000a-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc000000a-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000012-01f4-0000-9c74-93a300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."DATE_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000012-01f4-0000-9c74-93a300000000-m00000008-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000008-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000013-01f4-0000-9e93-cd8e00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Date Key"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000013-01f4-0000-9e93-cd8e00000000-mc000000b-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc000000b-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000014-01f4-0000-b261-5bce00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."DATE_KEY"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000014-01f4-0000-b261-5bce00000000-m00000009-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000009-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000015-01f4-0000-7ac0-1c3500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Day Of Week Description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000015-01f4-0000-7ac0-1c3500000000-mc000000c-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc000000c-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000016-01f4-0000-9bc8-bf8a00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."DAY_OF_WEEK_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000016-01f4-0000-9bc8-bf8a00000000-m0000000a-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m0000000a-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000017-01f4-0000-635c-e6cf00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Day Of Week Number"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000017-01f4-0000-635c-e6cf00000000-mc000000d-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc000000d-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000018-01f4-0000-736a-000d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."DAY_OF_WEEK_NUM"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000018-01f4-0000-736a-000d00000000-m0000000b-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m0000000b-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000019-01f4-0000-6b68-16d600000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Fiscal Quarter Description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000019-01f4-0000-6b68-16d600000000-mc000000e-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc000000e-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001a-01f4-0000-fc56-664100000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."FISCAL_QTR_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001a-01f4-0000-fc56-664100000000-m0000000c-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m0000000c-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001b-01f4-0000-cbd3-839500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Fiscal Quarter ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001b-01f4-0000-cbd3-839500000000-mc000000f-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc000000f-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001c-01f4-0000-788e-025000000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."FISCAL_QTR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001c-01f4-0000-788e-025000000000-m0000000d-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m0000000d-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001d-01f4-0000-48bc-27bf00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Fiscal Year Description"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001d-01f4-0000-48bc-27bf00000000-mc0000010-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000010-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m0000001e-01f4-0000-c31f-700300000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."FISCAL_YEAR_DESC"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001e-01f4-0000-c31f-700300000000-m0000000e-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m0000000e-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m0000001f-01f4-0000-3f99-f85d00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Fiscal Year ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m0000001f-01f4-0000-3f99-f85d00000000-mc0000011-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000011-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000020-01f4-0000-2c6c-180800000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."FISCAL_YEAR_ID"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000020-01f4-0000-2c6c-180800000000-m0000000f-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m0000000f-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000021-01f4-0000-5330-a0a500000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."Holiday Flag"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000021-01f4-0000-5330-a0a500000000-mc0000012-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000012-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000022-01f4-0000-4fe5-119d00000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."HOLIDAY_FLAG"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000022-01f4-0000-4fe5-119d00000000-m00000010-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000010-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<ColumnMapping>
+<LogicalColumnExpr mdsid="m00000023-01f4-0000-1db9-bbbf00000000" name="LogicalColumnExpr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["Brokerage"."Conformed Date"."SQL Date"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000023-01f4-0000-1db9-bbbf00000000-mc0000013-156a-15ad-b23c-0a00020f0000" objectTypeId="2006" objectRef="/oracle/bi/server/base/LogicalTable/c0000000-156a-15ad-b23c-0a00020f0000.xml#mc0000013-156a-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</LogicalColumnExpr>
+<Expr mdsid="m00000024-01f4-0000-36da-f41200000000" name="Expr">
+<ExprText><![CDATA["%1"]]></ExprText>
+<ExprTextDesc><![CDATA["service-orcl".""."EDW"."Conformed Date"."SQL_DATE"]]></ExprTextDesc>
+<ObjectRefList>
+<RefObject refId="m00000024-01f4-0000-36da-f41200000000-m00000011-1547-15ad-b23c-0a00020f0000" objectTypeId="3003" objectRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000011-1547-15ad-b23c-0a00020f0000"/>
+</ObjectRefList>
+</Expr>
+</ColumnMapping>
+<Link startNodeTableRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#mc0000000-1546-15ad-b23c-0a00020f0000">
+</Link>
+<WhereClause mdsid="m00000025-01f4-0000-e8a0-3cc900000000" name="WhereClause">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</WhereClause>
+<GroupBy mdsid="m00000026-01f4-0000-4b50-ee5300000000" name="GroupBy">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</GroupBy>
+<FragmentContent mdsid="m00000027-01f4-0000-e34c-d8ac00000000" name="FragmentContent">
+<ExprText></ExprText>
+<ExprTextDesc></ExprTextDesc>
+</FragmentContent>
+</LogicalTableSource>

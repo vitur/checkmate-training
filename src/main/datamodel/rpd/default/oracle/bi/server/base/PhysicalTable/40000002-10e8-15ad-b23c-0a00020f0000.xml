@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="m40000002-10e8-15ad-b23c-0a00020f0000" name="ACCOUNT_ACTIVITY_F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m00000000-73b7-15ad-b23c-0a00020f0000" name="ACTIVITY_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000003-10e8-15ad-b23c-0a00020f0000" name="ACCOUNT_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000004-10e8-15ad-b23c-0a00020f0000" name="ACTIVITY_COUNT" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000005-10e8-15ad-b23c-0a00020f0000" name="ACTIVITY_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000006-10e8-15ad-b23c-0a00020f0000" name="ACTIVITY_DATE_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000007-10e8-15ad-b23c-0a00020f0000" name="ACTIVITY_TYPE" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000008-10e8-15ad-b23c-0a00020f0000" name="BATCH_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000009-10e8-15ad-b23c-0a00020f0000" name="BROKER_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000000a-10e8-15ad-b23c-0a00020f0000" name="CUSTOMER_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

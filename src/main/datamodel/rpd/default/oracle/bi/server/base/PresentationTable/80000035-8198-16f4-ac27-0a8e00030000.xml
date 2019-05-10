@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationTable mdsid="m80000035-8198-16f4-ac27-0a8e00030000" name="Security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/00000000-818e-16f4-ac27-0a8e00030000.xml#m00000000-818e-16f4-ac27-0a8e00030000">
+<PresentationColumn mdsid="m8000001b-8198-16f4-ac27-0a8e00030000" name="Security Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005c-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000001d-8198-16f4-ac27-0a8e00030000" name="Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005b-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000001f-8198-16f4-ac27-0a8e00030000" name="Symbol" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005f-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000021-8198-16f4-ac27-0a8e00030000" name="Exchange ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000055-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000023-8198-16f4-ac27-0a8e00030000" name="Issue" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005a-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000025-8198-16f4-ac27-0a8e00030000" name="Dividend" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000053-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000027-8198-16f4-ac27-0a8e00030000" name="First Trade" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000057-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000029-8198-16f4-ac27-0a8e00030000" name="First Trade On Exchange" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000058-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000002b-8198-16f4-ac27-0a8e00030000" name="Shares Outstanding" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005d-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000002d-8198-16f4-ac27-0a8e00030000" name="Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005e-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m8000002f-8198-16f4-ac27-0a8e00030000" name="Is Current" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000059-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000031-8198-16f4-ac27-0a8e00030000" name="Effective Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000054-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000033-8198-16f4-ac27-0a8e00030000" name="Expiration Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000056-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m80000035-8198-16f4-ac27-0a8e00030000-m8000003b-8198-16f4-ac27-0a8e00030000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/8000003b-8198-16f4-ac27-0a8e00030000.xml#m8000003b-8198-16f4-ac27-0a8e00030000"/>
+<RefPresentationHierarchy refId="m80000035-8198-16f4-ac27-0a8e00030000-m80000037-8198-16f4-ac27-0a8e00030000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/80000037-8198-16f4-ac27-0a8e00030000.xml#m80000037-8198-16f4-ac27-0a8e00030000"/>
+<RefPresentationHierarchy refId="m80000035-8198-16f4-ac27-0a8e00030000-m80000039-8198-16f4-ac27-0a8e00030000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/80000039-8198-16f4-ac27-0a8e00030000.xml#m80000039-8198-16f4-ac27-0a8e00030000"/>
+</RefHierarchies>
+</PresentationTable>

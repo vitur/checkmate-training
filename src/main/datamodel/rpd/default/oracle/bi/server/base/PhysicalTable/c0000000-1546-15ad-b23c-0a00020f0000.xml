@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="mc0000000-1546-15ad-b23c-0a00020f0000" name="Conformed Date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" pollFreq="0" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000" sourceTableRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000055-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m00000000-1547-15ad-b23c-0a00020f0000" name="CALENDAR_MONTH_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000056-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000001-1547-15ad-b23c-0a00020f0000" name="CALENDAR_MONTH_ID" dataType="INT" precision="6" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000057-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000002-1547-15ad-b23c-0a00020f0000" name="CALENDAR_QTR_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000058-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000003-1547-15ad-b23c-0a00020f0000" name="CALENDAR_QTR_ID" dataType="INT" precision="5" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000059-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000004-1547-15ad-b23c-0a00020f0000" name="CALENDAR_WEEK_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m4000005a-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000005-1547-15ad-b23c-0a00020f0000" name="CALENDAR_WEEK_ID" dataType="INT" precision="6" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m4000005b-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000006-1547-15ad-b23c-0a00020f0000" name="CALENDAR_YEAR_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m4000005c-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000007-1547-15ad-b23c-0a00020f0000" name="CALENDAR_YEAR_ID" dataType="INT" precision="4" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m4000005d-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000008-1547-15ad-b23c-0a00020f0000" name="DATE_DESC" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m4000005e-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000009-1547-15ad-b23c-0a00020f0000" name="DATE_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m4000005f-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000a-1547-15ad-b23c-0a00020f0000" name="DAY_OF_WEEK_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000060-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000b-1547-15ad-b23c-0a00020f0000" name="DAY_OF_WEEK_NUM" dataType="INT" precision="1" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000061-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000c-1547-15ad-b23c-0a00020f0000" name="FISCAL_QTR_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000062-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000d-1547-15ad-b23c-0a00020f0000" name="FISCAL_QTR_ID" dataType="INT" precision="5" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000063-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000e-1547-15ad-b23c-0a00020f0000" name="FISCAL_YEAR_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000064-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m0000000f-1547-15ad-b23c-0a00020f0000" name="FISCAL_YEAR_ID" dataType="INT" precision="4" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000065-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000010-1547-15ad-b23c-0a00020f0000" name="HOLIDAY_FLAG" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000066-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m00000011-1547-15ad-b23c-0a00020f0000" name="SQL_DATE" dataType="DATETIME" precision="20" nullable="true" rowCount="0.0" specialType="none" sourceColumnRef="/oracle/bi/server/base/PhysicalTable/40000055-10e8-15ad-b23c-0a00020f0000.xml#m40000067-10e8-15ad-b23c-0a00020f0000">
+</PhysicalColumn>
+<PhysicalKey mdsid="m40000000-1550-15ad-b23c-0a00020f0000" name="Date Key">
+<RefColumns>
+<RefColumn refId="m40000000-1550-15ad-b23c-0a00020f0000-m00000009-1547-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/c0000000-1546-15ad-b23c-0a00020f0000.xml#m00000009-1547-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

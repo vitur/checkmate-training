@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="m80000010-10e8-15ad-b23c-0a00020f0000" name="TRADE_F" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m80000011-10e8-15ad-b23c-0a00020f0000" name="ACCOUNT_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000012-10e8-15ad-b23c-0a00020f0000" name="BATCH_ID" dataType="INT" precision="5" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000013-10e8-15ad-b23c-0a00020f0000" name="BID_PRICE" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000014-10e8-15ad-b23c-0a00020f0000" name="BROKER_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000015-10e8-15ad-b23c-0a00020f0000" name="CASH_FLAG" dataType="VARCHAR" precision="1" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000016-10e8-15ad-b23c-0a00020f0000" name="COMMISSION" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000017-10e8-15ad-b23c-0a00020f0000" name="COMPANY_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000018-10e8-15ad-b23c-0a00020f0000" name="CREATE_DATE" dataType="DATETIME" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000019-10e8-15ad-b23c-0a00020f0000" name="CREATE_DATE_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000001a-10e8-15ad-b23c-0a00020f0000" name="CUSTOMER_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000001b-10e8-15ad-b23c-0a00020f0000" name="EXECUTED_BY" dataType="VARCHAR" precision="64" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000001c-10e8-15ad-b23c-0a00020f0000" name="FEE" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000001d-10e8-15ad-b23c-0a00020f0000" name="QUANTITY" dataType="INT" precision="6" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000001e-10e8-15ad-b23c-0a00020f0000" name="SECURITY_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m8000001f-10e8-15ad-b23c-0a00020f0000" name="STATUS" dataType="VARCHAR" precision="10" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000020-10e8-15ad-b23c-0a00020f0000" name="TAX" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000021-10e8-15ad-b23c-0a00020f0000" name="TRADE_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000022-10e8-15ad-b23c-0a00020f0000" name="TRADE_PRICE" dataType="DOUBLE" precision="126" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m80000023-10e8-15ad-b23c-0a00020f0000" name="TYPE" dataType="VARCHAR" precision="12" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

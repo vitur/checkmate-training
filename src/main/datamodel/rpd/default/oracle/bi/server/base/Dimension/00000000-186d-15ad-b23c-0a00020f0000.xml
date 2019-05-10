@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Dimension mdsid="m00000000-186d-15ad-b23c-0a00020f0000" name="Security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isValueBased="false" isRagged="false" isSkipped="false" defaultRootLevelRef="/oracle/bi/server/base/Dimension/00000000-186d-15ad-b23c-0a00020f0000.xml#m40000000-1871-15ad-b23c-0a00020f0000" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-1477-15ad-b23c-0a00020f0000.xml#m00000000-1477-15ad-b23c-0a00020f0000">
+<LogicalLevel mdsid="m40000000-1871-15ad-b23c-0a00020f0000" name="Total" isGTA="true" isFDUC="true" memberCount="1" levelConst="&apos;Total&apos;">
+<RefChildLevels>
+<RefLogicalLevel refId="m40000000-1871-15ad-b23c-0a00020f0000_m40000000-188c-15ad-b23c-0a00020f0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-186d-15ad-b23c-0a00020f0000.xml#m40000000-188c-15ad-b23c-0a00020f0000"/>
+<RefLogicalLevel refId="m40000000-1871-15ad-b23c-0a00020f0000_m80000000-1891-15ad-b23c-0a00020f0000_2" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-186d-15ad-b23c-0a00020f0000.xml#m80000000-1891-15ad-b23c-0a00020f0000"/>
+<RefLogicalLevel refId="m40000000-1871-15ad-b23c-0a00020f0000_m80000000-1896-15ad-b23c-0a00020f0000_3" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-186d-15ad-b23c-0a00020f0000.xml#m80000000-1896-15ad-b23c-0a00020f0000"/>
+</RefChildLevels>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m40000000-188c-15ad-b23c-0a00020f0000" name="Exchange" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Exchange&apos;">
+<LogicalKey mdsid="m00000000-188f-15ad-b23c-0a00020f0000" name="Exchange ID" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m00000000-188f-15ad-b23c-0a00020f0000-m40000055-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000055-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m40000000-188c-15ad-b23c-0a00020f0000_mc0000000-189b-15ad-b23c-0a00020f0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-186d-15ad-b23c-0a00020f0000.xml#mc0000000-189b-15ad-b23c-0a00020f0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m40000000-188c-15ad-b23c-0a00020f0000-m40000055-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000055-1484-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="mc0000000-189b-15ad-b23c-0a00020f0000" name="Detail" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Detail&apos;">
+<LogicalKey mdsid="m40000000-18a8-15ad-b23c-0a00020f0000" name="Security Key" isPrimary="true">
+<RefColumns>
+<RefLogicalColumn refId="m40000000-18a8-15ad-b23c-0a00020f0000-m4000005c-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005c-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<LogicalKey mdsid="mc0000000-18a9-15ad-b23c-0a00020f0000" name="Name" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="mc0000000-18a9-15ad-b23c-0a00020f0000-m4000005b-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005b-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefLogicalColumns>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000053-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000053-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000054-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000054-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000056-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000056-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000057-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000057-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000058-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000058-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000059-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000059-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005b-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005b-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005c-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005c-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005d-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005d-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005f-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005f-1484-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m80000000-1891-15ad-b23c-0a00020f0000" name="Issue" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Issue&apos;">
+<LogicalKey mdsid="m40000000-1894-15ad-b23c-0a00020f0000" name="Issue" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m40000000-1894-15ad-b23c-0a00020f0000-m4000005a-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005a-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m80000000-1891-15ad-b23c-0a00020f0000_mc0000000-189b-15ad-b23c-0a00020f0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-186d-15ad-b23c-0a00020f0000.xml#mc0000000-189b-15ad-b23c-0a00020f0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m80000000-1891-15ad-b23c-0a00020f0000-m4000005a-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005a-1484-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+<LogicalLevel mdsid="m80000000-1896-15ad-b23c-0a00020f0000" name="Status" isGTA="false" isFDUC="true" memberCount="1" levelConst="&apos;Status&apos;">
+<LogicalKey mdsid="m80000000-1898-15ad-b23c-0a00020f0000" name="Status" isPrimary="true" isForDrillDown="true">
+<RefColumns>
+<RefLogicalColumn refId="m80000000-1898-15ad-b23c-0a00020f0000-m4000005e-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005e-1484-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</LogicalKey>
+<RefChildLevels>
+<RefLogicalLevel refId="m80000000-1896-15ad-b23c-0a00020f0000_mc0000000-189b-15ad-b23c-0a00020f0000_1" logicalLevelRef="/oracle/bi/server/base/Dimension/00000000-186d-15ad-b23c-0a00020f0000.xml#mc0000000-189b-15ad-b23c-0a00020f0000"/>
+</RefChildLevels>
+<RefLogicalColumns>
+<RefLogicalColumn refId="m80000000-1896-15ad-b23c-0a00020f0000-m4000005e-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005e-1484-15ad-b23c-0a00020f0000"/>
+</RefLogicalColumns>
+<AbsoluteSequenceNumber>
+</AbsoluteSequenceNumber>
+</LogicalLevel>
+</Dimension>

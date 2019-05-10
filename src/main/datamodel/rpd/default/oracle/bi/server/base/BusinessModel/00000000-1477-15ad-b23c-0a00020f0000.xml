@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<BusinessModel mdsid="m00000000-1477-15ad-b23c-0a00020f0000" name="Brokerage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" isClassicStar="false" isAvailable="true">
+<RefDisplayFolders>
+<RefLogicalDisplayFolder refId="m00000000-1477-15ad-b23c-0a00020f0000-m40000000-3630-15ae-8c48-0a00020f0000" logicalDisplayFolderRef="/oracle/bi/server/base/LogicalDisplayFolder/40000000-3630-15ae-8c48-0a00020f0000.xml#m40000000-3630-15ae-8c48-0a00020f0000"/>
+<RefLogicalDisplayFolder refId="m00000000-1477-15ad-b23c-0a00020f0000-m00000000-3635-15ae-8c48-0a00020f0000" logicalDisplayFolderRef="/oracle/bi/server/base/LogicalDisplayFolder/00000000-3635-15ae-8c48-0a00020f0000.xml#m00000000-3635-15ae-8c48-0a00020f0000"/>
+<RefLogicalDisplayFolder refId="m00000000-1477-15ad-b23c-0a00020f0000-mc0000000-dfd3-16f4-806e-0a8e00030000" logicalDisplayFolderRef="/oracle/bi/server/base/LogicalDisplayFolder/c0000000-dfd3-16f4-806e-0a8e00030000.xml#mc0000000-dfd3-16f4-806e-0a8e00030000"/>
+</RefDisplayFolders>
+</BusinessModel>

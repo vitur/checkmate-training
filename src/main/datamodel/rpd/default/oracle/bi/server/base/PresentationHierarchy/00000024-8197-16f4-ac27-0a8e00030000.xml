@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationHierarchy mdsid="m00000024-8197-16f4-ac27-0a8e00030000" name="Account - Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/00000022-8197-16f4-ac27-0a8e00030000.xml#m00000022-8197-16f4-ac27-0a8e00030000" logicalDimensionRef="/oracle/bi/server/base/Dimension/40000000-1619-15ad-b23c-0a00020f0000.xml#m40000000-1619-15ad-b23c-0a00020f0000">
+<PresentationLevel mdsid="m00000028-8197-16f4-ac27-0a8e00030000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/00000024-8197-16f4-ac27-0a8e00030000.xml#m00000024-8197-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000000-1619-15ad-b23c-0a00020f0000.xml#m40000000-1620-15ad-b23c-0a00020f0000">
+</PresentationLevel>
+<PresentationLevel mdsid="m0000002a-8197-16f4-ac27-0a8e00030000" name="Status" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/00000024-8197-16f4-ac27-0a8e00030000.xml#m00000024-8197-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000000-1619-15ad-b23c-0a00020f0000.xml#m80000000-1630-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m0000002a-8197-16f4-ac27-0a8e00030000-m0000001a-8197-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/00000022-8197-16f4-ac27-0a8e00030000.xml#m0000001a-8197-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m0000002c-8197-16f4-ac27-0a8e00030000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/00000024-8197-16f4-ac27-0a8e00030000.xml#m00000024-8197-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/40000000-1619-15ad-b23c-0a00020f0000.xml#m40000000-1634-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m0000002c-8197-16f4-ac27-0a8e00030000-m00000016-8197-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/00000022-8197-16f4-ac27-0a8e00030000.xml#m00000016-8197-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

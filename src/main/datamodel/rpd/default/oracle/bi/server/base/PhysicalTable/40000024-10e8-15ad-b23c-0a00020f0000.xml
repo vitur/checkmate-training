@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="m40000024-10e8-15ad-b23c-0a00020f0000" name="COMPANY_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m40000025-10e8-15ad-b23c-0a00020f0000" name="ADDRESS_LINE_1" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000026-10e8-15ad-b23c-0a00020f0000" name="ADDRESS_LINE_2" dataType="VARCHAR" precision="80" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000027-10e8-15ad-b23c-0a00020f0000" name="BATCH_ID" dataType="INT" precision="5" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000028-10e8-15ad-b23c-0a00020f0000" name="CEO" dataType="VARCHAR" precision="100" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000029-10e8-15ad-b23c-0a00020f0000" name="CITY" dataType="VARCHAR" precision="25" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002a-10e8-15ad-b23c-0a00020f0000" name="COMPANY_ID" dataType="DOUBLE" precision="22" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002b-10e8-15ad-b23c-0a00020f0000" name="COMPANY_KEY" dataType="DOUBLE" precision="22" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002c-10e8-15ad-b23c-0a00020f0000" name="COUNTRY" dataType="VARCHAR" precision="24" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002d-10e8-15ad-b23c-0a00020f0000" name="DESCRIPTION" dataType="VARCHAR" precision="150" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002e-10e8-15ad-b23c-0a00020f0000" name="EFFECTIVE_DATE" dataType="DATETIME" precision="150" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000002f-10e8-15ad-b23c-0a00020f0000" name="EXPIRATION_DATE" dataType="DATETIME" precision="150" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000030-10e8-15ad-b23c-0a00020f0000" name="FOUNDING_DATE" dataType="DATETIME" precision="150" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000031-10e8-15ad-b23c-0a00020f0000" name="INDUSTRY" dataType="VARCHAR" precision="50" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000032-10e8-15ad-b23c-0a00020f0000" name="IS_CURRENT" dataType="VARCHAR" precision="1" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000033-10e8-15ad-b23c-0a00020f0000" name="IS_LOW_GRADE" dataType="VARCHAR" precision="1" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000034-10e8-15ad-b23c-0a00020f0000" name="NAME" dataType="VARCHAR" precision="60" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000035-10e8-15ad-b23c-0a00020f0000" name="POSTAL_CODE" dataType="VARCHAR" precision="12" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000036-10e8-15ad-b23c-0a00020f0000" name="SP_RATING" dataType="VARCHAR" precision="4" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000037-10e8-15ad-b23c-0a00020f0000" name="STATE_PROV" dataType="VARCHAR" precision="20" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000038-10e8-15ad-b23c-0a00020f0000" name="STATUS" dataType="VARCHAR" precision="10" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m40000039-10e8-15ad-b23c-0a00020f0000" name="COMPANY_D_PK">
+<RefColumns>
+<RefColumn refId="m40000039-10e8-15ad-b23c-0a00020f0000-m4000002b-10e8-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000024-10e8-15ad-b23c-0a00020f0000.xml#m4000002b-10e8-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

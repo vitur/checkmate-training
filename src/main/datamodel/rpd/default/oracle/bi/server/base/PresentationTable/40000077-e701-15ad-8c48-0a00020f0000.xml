@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationTable mdsid="m40000077-e701-15ad-8c48-0a00020f0000" name="Company" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000071-e701-15ad-8c48-0a00020f0000.xml#m40000071-e701-15ad-8c48-0a00020f0000">
+<PresentationColumn mdsid="m4000002d-e701-15ad-8c48-0a00020f0000" name="Company Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000024-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000002e-e701-15ad-8c48-0a00020f0000" name="Company ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000023-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000002f-e701-15ad-8c48-0a00020f0000" name="Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000002d-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000030-e701-15ad-8c48-0a00020f0000" name="Description" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000026-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000031-e701-15ad-8c48-0a00020f0000" name="Status" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000031-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000032-e701-15ad-8c48-0a00020f0000" name="Address Line 1" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000001e-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000033-e701-15ad-8c48-0a00020f0000" name="Address Line 2" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000001f-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000034-e701-15ad-8c48-0a00020f0000" name="CEO" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000021-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000035-e701-15ad-8c48-0a00020f0000" name="City" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000022-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000036-e701-15ad-8c48-0a00020f0000" name="Country" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000025-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000037-e701-15ad-8c48-0a00020f0000" name="Founding Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000029-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000038-e701-15ad-8c48-0a00020f0000" name="Industry" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000002a-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000039-e701-15ad-8c48-0a00020f0000" name="Is Low Grade" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000002c-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000003a-e701-15ad-8c48-0a00020f0000" name="Postal Code" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000002e-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000003b-e701-15ad-8c48-0a00020f0000" name="SP Rating" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000002f-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000003c-e701-15ad-8c48-0a00020f0000" name="State / Province" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000030-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000003d-e701-15ad-8c48-0a00020f0000" name="Is Current" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m4000002b-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000003e-e701-15ad-8c48-0a00020f0000" name="Effective Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000027-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m4000003f-e701-15ad-8c48-0a00020f0000" name="Expiration Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m40000028-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000040-e701-15ad-8c48-0a00020f0000" name="City Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000001c-1484-15ad-b23c-0a00020f0000.xml#m80000000-184d-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m40000077-e701-15ad-8c48-0a00020f0000-m40000082-e701-15ad-8c48-0a00020f0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/40000082-e701-15ad-8c48-0a00020f0000.xml#m40000082-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationHierarchy refId="m40000077-e701-15ad-8c48-0a00020f0000-m40000083-e701-15ad-8c48-0a00020f0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/40000083-e701-15ad-8c48-0a00020f0000.xml#m40000083-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationHierarchy refId="m40000077-e701-15ad-8c48-0a00020f0000-m40000084-e701-15ad-8c48-0a00020f0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/40000084-e701-15ad-8c48-0a00020f0000.xml#m40000084-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationHierarchy refId="m40000077-e701-15ad-8c48-0a00020f0000-m40000085-e701-15ad-8c48-0a00020f0000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/40000085-e701-15ad-8c48-0a00020f0000.xml#m40000085-e701-15ad-8c48-0a00020f0000"/>
+</RefHierarchies>
+</PresentationTable>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="m40000015-10e8-15ad-b23c-0a00020f0000" name="BROKER_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m4000001e-10e8-15ad-b23c-0a00020f0000" name="LAST_NAME" dataType="VARCHAR" precision="50" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001f-10e8-15ad-b23c-0a00020f0000" name="MANAGER_ID" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000020-10e8-15ad-b23c-0a00020f0000" name="MIDDLE_NAME" dataType="VARCHAR" precision="1" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000021-10e8-15ad-b23c-0a00020f0000" name="OFFICE" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000022-10e8-15ad-b23c-0a00020f0000" name="PHONE" dataType="VARCHAR" precision="14" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000016-10e8-15ad-b23c-0a00020f0000" name="BATCH_ID" dataType="DOUBLE" precision="22" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000017-10e8-15ad-b23c-0a00020f0000" name="BRANCH" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000018-10e8-15ad-b23c-0a00020f0000" name="BROKER_ID" dataType="DOUBLE" precision="22" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000019-10e8-15ad-b23c-0a00020f0000" name="BROKER_KEY" dataType="DOUBLE" precision="22" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001a-10e8-15ad-b23c-0a00020f0000" name="EFFECTIVE_DATE" dataType="DATETIME" precision="22" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001b-10e8-15ad-b23c-0a00020f0000" name="EXPIRATION_DATE" dataType="DATETIME" precision="22" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001c-10e8-15ad-b23c-0a00020f0000" name="FIRST_NAME" dataType="VARCHAR" precision="50" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000001d-10e8-15ad-b23c-0a00020f0000" name="IS_CURRENT" dataType="VARCHAR" precision="1" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalKey mdsid="m40000023-10e8-15ad-b23c-0a00020f0000" name="BROKER_D_PK">
+<RefColumns>
+<RefColumn refId="m40000023-10e8-15ad-b23c-0a00020f0000-m40000019-10e8-15ad-b23c-0a00020f0000" columnRef="/oracle/bi/server/base/PhysicalTable/40000015-10e8-15ad-b23c-0a00020f0000.xml#m40000019-10e8-15ad-b23c-0a00020f0000"/>
+</RefColumns>
+</PhysicalKey>
+</PhysicalTable>

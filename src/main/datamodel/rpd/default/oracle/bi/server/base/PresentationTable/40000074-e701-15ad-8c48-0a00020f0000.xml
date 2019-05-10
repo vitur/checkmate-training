@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationTable mdsid="m40000074-e701-15ad-8c48-0a00020f0000" name="Activity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/40000071-e701-15ad-8c48-0a00020f0000.xml#m40000071-e701-15ad-8c48-0a00020f0000">
+<Alias name="Account Activity"/>
+<PresentationColumn mdsid="m40000041-e701-15ad-8c48-0a00020f0000" name="Activity Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-148f-15ad-b23c-0a00020f0000.xml#m40000081-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m40000042-e701-15ad-8c48-0a00020f0000" name="Activity ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-148f-15ad-b23c-0a00020f0000.xml#m80000002-73c6-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000001-e72c-15ad-8c48-0a00020f0000" name="Activity Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000007b-1484-15ad-b23c-0a00020f0000.xml#m40000001-e714-15ad-8c48-0a00020f0000">
+</PresentationColumn>
+</PresentationTable>

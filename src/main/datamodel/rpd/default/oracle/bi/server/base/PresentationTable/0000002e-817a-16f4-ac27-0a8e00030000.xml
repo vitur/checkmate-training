@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationTable mdsid="m0000002e-817a-16f4-ac27-0a8e00030000" name="Broker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-8174-16f4-ac27-0a8e00030000.xml#m80000000-8174-16f4-ac27-0a8e00030000">
+<PresentationColumn mdsid="m00000016-817a-16f4-ac27-0a8e00030000" name="Broker Key" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000011-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000018-817a-16f4-ac27-0a8e00030000" name="Broker ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000010-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001a-817a-16f4-ac27-0a8e00030000" name="Manager ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000017-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001c-817a-16f4-ac27-0a8e00030000" name="Branch" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m4000000f-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000001e-817a-16f4-ac27-0a8e00030000" name="First Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000014-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000020-817a-16f4-ac27-0a8e00030000" name="Middle Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000018-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000022-817a-16f4-ac27-0a8e00030000" name="Last Name" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000016-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000024-817a-16f4-ac27-0a8e00030000" name="Office" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000019-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000026-817a-16f4-ac27-0a8e00030000" name="Phone" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m4000001a-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m00000028-817a-16f4-ac27-0a8e00030000" name="Is Current" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000015-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000002a-817a-16f4-ac27-0a8e00030000" name="Effective Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000012-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m0000002c-817a-16f4-ac27-0a8e00030000" name="Expiration Date" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/4000000c-1484-15ad-b23c-0a00020f0000.xml#m40000013-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m0000002e-817a-16f4-ac27-0a8e00030000-m00000032-817a-16f4-ac27-0a8e00030000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/00000032-817a-16f4-ac27-0a8e00030000.xml#m00000032-817a-16f4-ac27-0a8e00030000"/>
+<RefPresentationHierarchy refId="m0000002e-817a-16f4-ac27-0a8e00030000-m00000030-817a-16f4-ac27-0a8e00030000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/00000030-817a-16f4-ac27-0a8e00030000.xml#m00000030-817a-16f4-ac27-0a8e00030000"/>
+</RefHierarchies>
+</PresentationTable>

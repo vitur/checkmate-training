@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationHierarchy mdsid="mc000004d-8192-16f4-ac27-0a8e00030000" name="Conformed Date - Calendar Week" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/c0000047-8192-16f4-ac27-0a8e00030000.xml#mc0000047-8192-16f4-ac27-0a8e00030000" logicalDimensionRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#mc0000000-18de-15ad-b23c-0a00020f0000">
+<PresentationLevel mdsid="mc0000065-8192-16f4-ac27-0a8e00030000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c000004d-8192-16f4-ac27-0a8e00030000.xml#mc000004d-8192-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m00000000-1913-15ad-b23c-0a00020f0000">
+</PresentationLevel>
+<PresentationLevel mdsid="mc000004f-8192-16f4-ac27-0a8e00030000" name="Calendar Week" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c000004d-8192-16f4-ac27-0a8e00030000.xml#mc000004d-8192-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m80000000-1925-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc000004f-8192-16f4-ac27-0a8e00030000-mc000002f-8192-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000047-8192-16f4-ac27-0a8e00030000.xml#mc000002f-8192-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="mc0000051-8192-16f4-ac27-0a8e00030000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/c000004d-8192-16f4-ac27-0a8e00030000.xml#mc000004d-8192-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m40000000-192f-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="mc0000051-8192-16f4-ac27-0a8e00030000-mc0000025-8192-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/c0000047-8192-16f4-ac27-0a8e00030000.xml#mc0000025-8192-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>

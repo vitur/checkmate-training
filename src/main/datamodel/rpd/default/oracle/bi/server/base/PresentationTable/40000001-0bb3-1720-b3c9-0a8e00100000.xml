@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationTable mdsid="m40000001-0bb3-1720-b3c9-0a8e00100000" name="Activity Dev 1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-8174-16f4-ac27-0a8e00030000.xml#m80000000-8174-16f4-ac27-0a8e00030000">
+<PresentationColumn mdsid="m40000000-0bb3-1720-b3c9-0a8e00100000" name="Activity Count" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/80000000-0b96-1720-b3c9-0a8e00100000.xml#m80000001-0b96-1720-b3c9-0a8e00100000">
+</PresentationColumn>
+</PresentationTable>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationCatalog mdsid="m40000071-e701-15ad-8c48-0a00020f0000" name="Brokerage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-1477-15ad-b23c-0a00020f0000.xml#m00000000-1477-15ad-b23c-0a00020f0000">
+<Alias name="Jump Program"/>
+<RefTables>
+<RefPresentationTable refId="m40000071-e701-15ad-8c48-0a00020f0000-m40000075-e701-15ad-8c48-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000075-e701-15ad-8c48-0a00020f0000.xml#m40000075-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationTable refId="m40000071-e701-15ad-8c48-0a00020f0000-m40000076-e701-15ad-8c48-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000076-e701-15ad-8c48-0a00020f0000.xml#m40000076-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationTable refId="m40000071-e701-15ad-8c48-0a00020f0000-m40000077-e701-15ad-8c48-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000077-e701-15ad-8c48-0a00020f0000.xml#m40000077-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationTable refId="m40000071-e701-15ad-8c48-0a00020f0000-m40000079-e701-15ad-8c48-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000079-e701-15ad-8c48-0a00020f0000.xml#m40000079-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationTable refId="m40000071-e701-15ad-8c48-0a00020f0000-m4000007a-e701-15ad-8c48-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/4000007a-e701-15ad-8c48-0a00020f0000.xml#m4000007a-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationTable refId="m40000071-e701-15ad-8c48-0a00020f0000-m4000007b-e701-15ad-8c48-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/4000007b-e701-15ad-8c48-0a00020f0000.xml#m4000007b-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationTable refId="m40000071-e701-15ad-8c48-0a00020f0000-m40000072-e701-15ad-8c48-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000072-e701-15ad-8c48-0a00020f0000.xml#m40000072-e701-15ad-8c48-0a00020f0000"/>
+<RefPresentationTable refId="m40000071-e701-15ad-8c48-0a00020f0000-m40000074-e701-15ad-8c48-0a00020f0000" presentationTableRef="/oracle/bi/server/base/PresentationTable/40000074-e701-15ad-8c48-0a00020f0000.xml#m40000074-e701-15ad-8c48-0a00020f0000"/>
+</RefTables>
+</PresentationCatalog>

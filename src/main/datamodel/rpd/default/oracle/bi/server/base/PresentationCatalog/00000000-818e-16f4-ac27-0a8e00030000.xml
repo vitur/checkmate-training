@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationCatalog mdsid="m00000000-818e-16f4-ac27-0a8e00030000" name="Brokerage - Trades" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" isAutoAggr="true" subjectAreaRef="/oracle/bi/server/base/BusinessModel/00000000-1477-15ad-b23c-0a00020f0000.xml#m00000000-1477-15ad-b23c-0a00020f0000">
+<RefTables>
+<RefPresentationTable refId="m00000000-818e-16f4-ac27-0a8e00030000-mc0000047-8192-16f4-ac27-0a8e00030000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000047-8192-16f4-ac27-0a8e00030000.xml#mc0000047-8192-16f4-ac27-0a8e00030000"/>
+<RefPresentationTable refId="m00000000-818e-16f4-ac27-0a8e00030000-mc0000050-8193-16f4-ac27-0a8e00030000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000050-8193-16f4-ac27-0a8e00030000.xml#mc0000050-8193-16f4-ac27-0a8e00030000"/>
+<RefPresentationTable refId="m00000000-818e-16f4-ac27-0a8e00030000-m0000002e-8195-16f4-ac27-0a8e00030000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000002e-8195-16f4-ac27-0a8e00030000.xml#m0000002e-8195-16f4-ac27-0a8e00030000"/>
+<RefPresentationTable refId="m00000000-818e-16f4-ac27-0a8e00030000-m00000022-8197-16f4-ac27-0a8e00030000" presentationTableRef="/oracle/bi/server/base/PresentationTable/00000022-8197-16f4-ac27-0a8e00030000.xml#m00000022-8197-16f4-ac27-0a8e00030000"/>
+<RefPresentationTable refId="m00000000-818e-16f4-ac27-0a8e00030000-m80000035-8198-16f4-ac27-0a8e00030000" presentationTableRef="/oracle/bi/server/base/PresentationTable/80000035-8198-16f4-ac27-0a8e00030000.xml#m80000035-8198-16f4-ac27-0a8e00030000"/>
+<RefPresentationTable refId="m00000000-818e-16f4-ac27-0a8e00030000-m0000005e-819a-16f4-ac27-0a8e00030000" presentationTableRef="/oracle/bi/server/base/PresentationTable/0000005e-819a-16f4-ac27-0a8e00030000.xml#m0000005e-819a-16f4-ac27-0a8e00030000"/>
+<RefPresentationTable refId="m00000000-818e-16f4-ac27-0a8e00030000-mc000000f-819b-16f4-ac27-0a8e00030000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c000000f-819b-16f4-ac27-0a8e00030000.xml#mc000000f-819b-16f4-ac27-0a8e00030000"/>
+<RefPresentationTable refId="m00000000-818e-16f4-ac27-0a8e00030000-mc0000014-819c-16f4-ac27-0a8e00030000" presentationTableRef="/oracle/bi/server/base/PresentationTable/c0000014-819c-16f4-ac27-0a8e00030000.xml#mc0000014-819c-16f4-ac27-0a8e00030000"/>
+</RefTables>
+</PresentationCatalog>

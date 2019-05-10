@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PhysicalTable mdsid="m40000055-10e8-15ad-b23c-0a00020f0000" name="DATE_D" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" type="none" rowCount="0.0" maxConn="0" containerRef="/oracle/bi/server/base/Schema/40000001-10e8-15ad-b23c-0a00020f0000.xml#m40000001-10e8-15ad-b23c-0a00020f0000">
+<PhysicalColumn mdsid="m40000056-10e8-15ad-b23c-0a00020f0000" name="CALENDAR_MONTH_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000057-10e8-15ad-b23c-0a00020f0000" name="CALENDAR_MONTH_ID" dataType="INT" precision="6" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000058-10e8-15ad-b23c-0a00020f0000" name="CALENDAR_QTR_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000059-10e8-15ad-b23c-0a00020f0000" name="CALENDAR_QTR_ID" dataType="INT" precision="5" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005a-10e8-15ad-b23c-0a00020f0000" name="CALENDAR_WEEK_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005b-10e8-15ad-b23c-0a00020f0000" name="CALENDAR_WEEK_ID" dataType="INT" precision="6" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005c-10e8-15ad-b23c-0a00020f0000" name="CALENDAR_YEAR_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005d-10e8-15ad-b23c-0a00020f0000" name="CALENDAR_YEAR_ID" dataType="INT" precision="4" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005e-10e8-15ad-b23c-0a00020f0000" name="DATE_DESC" dataType="VARCHAR" precision="50" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m4000005f-10e8-15ad-b23c-0a00020f0000" name="DATE_KEY" dataType="DOUBLE" precision="22" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000060-10e8-15ad-b23c-0a00020f0000" name="DAY_OF_WEEK_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000061-10e8-15ad-b23c-0a00020f0000" name="DAY_OF_WEEK_NUM" dataType="INT" precision="1" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000062-10e8-15ad-b23c-0a00020f0000" name="FISCAL_QTR_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000063-10e8-15ad-b23c-0a00020f0000" name="FISCAL_QTR_ID" dataType="INT" precision="5" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000064-10e8-15ad-b23c-0a00020f0000" name="FISCAL_YEAR_DESC" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000065-10e8-15ad-b23c-0a00020f0000" name="FISCAL_YEAR_ID" dataType="INT" precision="4" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000066-10e8-15ad-b23c-0a00020f0000" name="HOLIDAY_FLAG" dataType="VARCHAR" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+<PhysicalColumn mdsid="m40000067-10e8-15ad-b23c-0a00020f0000" name="SQL_DATE" dataType="DATETIME" precision="20" nullable="true" rowCount="0.0" specialType="none">
+</PhysicalColumn>
+</PhysicalTable>

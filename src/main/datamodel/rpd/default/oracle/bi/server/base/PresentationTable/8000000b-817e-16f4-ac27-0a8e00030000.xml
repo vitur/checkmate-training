@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationTable mdsid="m8000000b-817e-16f4-ac27-0a8e00030000" name="Activity Attributes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationCatalog/80000000-8174-16f4-ac27-0a8e00030000.xml#m80000000-8174-16f4-ac27-0a8e00030000">
+<Alias name="Account Activity Attributes"/>
+<PresentationColumn mdsid="m80000009-817e-16f4-ac27-0a8e00030000" name="Activity Type" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-148f-15ad-b23c-0a00020f0000.xml#m40000081-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000007-817e-16f4-ac27-0a8e00030000" name="Activity ID" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/00000000-148f-15ad-b23c-0a00020f0000.xml#m80000002-73c6-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<RefHierarchies>
+<RefPresentationHierarchy refId="m8000000b-817e-16f4-ac27-0a8e00030000-m8000000d-817e-16f4-ac27-0a8e00030000" presentationHierarchyRef="/oracle/bi/server/base/PresentationHierarchy/8000000d-817e-16f4-ac27-0a8e00030000.xml#m8000000d-817e-16f4-ac27-0a8e00030000"/>
+</RefHierarchies>
+</PresentationTable>

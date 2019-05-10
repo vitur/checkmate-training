@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PresentationHierarchy mdsid="m40000047-818a-16f4-ac27-0a8e00030000" name="Conformed Date - Calender Year" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.oracle.com/obis/repository" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m40000045-818a-16f4-ac27-0a8e00030000" logicalDimensionRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#mc0000000-18de-15ad-b23c-0a00020f0000">
+<PresentationLevel mdsid="m4000004d-818a-16f4-ac27-0a8e00030000" name="Total" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/40000047-818a-16f4-ac27-0a8e00030000.xml#m40000047-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m00000000-1913-15ad-b23c-0a00020f0000">
+</PresentationLevel>
+<PresentationLevel mdsid="m4000004f-818a-16f4-ac27-0a8e00030000" name="Calender Year" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/40000047-818a-16f4-ac27-0a8e00030000.xml#m40000047-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#mc0000000-1915-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m4000004f-818a-16f4-ac27-0a8e00030000-m40000031-818a-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m40000031-818a-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m40000051-818a-16f4-ac27-0a8e00030000" name="Calendar Quarter" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/40000047-818a-16f4-ac27-0a8e00030000.xml#m40000047-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m00000000-193b-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m40000051-818a-16f4-ac27-0a8e00030000-m40000029-818a-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m40000029-818a-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m40000053-818a-16f4-ac27-0a8e00030000" name="Calendar Month" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/40000047-818a-16f4-ac27-0a8e00030000.xml#m40000047-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m00000000-1944-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m40000053-818a-16f4-ac27-0a8e00030000-m40000025-818a-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m40000025-818a-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+<PresentationLevel mdsid="m40000055-818a-16f4-ac27-0a8e00030000" name="Detail" hasDispName="false" hasDispDescription="false" containerRef="/oracle/bi/server/base/PresentationHierarchy/40000047-818a-16f4-ac27-0a8e00030000.xml#m40000047-818a-16f4-ac27-0a8e00030000" logicalLevelRef="/oracle/bi/server/base/Dimension/c0000000-18de-15ad-b23c-0a00020f0000.xml#m40000000-192f-15ad-b23c-0a00020f0000">
+<RefDisplayColumns>
+<RefPresentationColumn refId="m40000055-818a-16f4-ac27-0a8e00030000-m40000023-818a-16f4-ac27-0a8e00030000" presentationColumnRef="/oracle/bi/server/base/PresentationTable/40000045-818a-16f4-ac27-0a8e00030000.xml#m40000023-818a-16f4-ac27-0a8e00030000"/>
+</RefDisplayColumns>
+</PresentationLevel>
+</PresentationHierarchy>
