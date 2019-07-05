@@ -12,6 +12,4 @@
 </PresentationColumn>
 <PresentationColumn mdsid="mc0000012-819c-16f4-ac27-0a8e00030000" name="Trade Price" hasDispName="false" hasDispDescription="false" overrideLogicalName="false" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000074-1484-15ad-b23c-0a00020f0000">
 </PresentationColumn>
-<PresentationColumn mdsid="m40000000-65bd-171b-9649-0a8e00100000" name="Trade Price#1" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000074-1484-15ad-b23c-0a00020f0000">
-</PresentationColumn>
 </PresentationTable>
