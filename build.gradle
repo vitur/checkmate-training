@@ -8,7 +8,7 @@ obi {
 
 	repositoryMode = "dir"
 
-	sourceBase = "C:/git/checkmate-obi-training/src/main"
+	sourceBase = "C:/git/checkmate-training/src/main"
 
 	middlewareHome = "C:/fmw/product/12.2.1.4/user_projects/domains/bi"
 
