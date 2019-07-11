@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- These application roles are used in catalog bootstrapping during startup of BIPS -->
+<ReservedApplicationRoles>
+   <!-- Name of the application role, description etc goes here -->
+   <BIAdministratorRole name="BIAdministrator"/>
+   <BIAuthorRole name="BIAuthor"/>
+   <BIConsumerRole name="BIConsumer"/>
+   <BISystemRole name="BISystem"/>
+   <AuthenticatedUserRole name="AuthenticatedUser"/>   
+</ReservedApplicationRoles>
