@@ -36,16 +36,16 @@
 </RefColumns>
 </LogicalKey>
 <RefLogicalColumns>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005c-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005c-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005b-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005b-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005f-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005f-1484-15ad-b23c-0a00020f0000"/>
 <RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000053-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000053-1484-15ad-b23c-0a00020f0000"/>
-<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000054-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000054-1484-15ad-b23c-0a00020f0000"/>
-<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000056-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000056-1484-15ad-b23c-0a00020f0000"/>
 <RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000057-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000057-1484-15ad-b23c-0a00020f0000"/>
 <RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000058-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000058-1484-15ad-b23c-0a00020f0000"/>
-<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000059-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000059-1484-15ad-b23c-0a00020f0000"/>
-<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005b-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005b-1484-15ad-b23c-0a00020f0000"/>
-<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005c-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005c-1484-15ad-b23c-0a00020f0000"/>
 <RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005d-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005d-1484-15ad-b23c-0a00020f0000"/>
-<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m4000005f-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m4000005f-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000059-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000059-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000054-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000054-1484-15ad-b23c-0a00020f0000"/>
+<RefLogicalColumn refId="mc0000000-189b-15ad-b23c-0a00020f0000-m40000056-1484-15ad-b23c-0a00020f0000" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000050-1484-15ad-b23c-0a00020f0000.xml#m40000056-1484-15ad-b23c-0a00020f0000"/>
 </RefLogicalColumns>
 <AbsoluteSequenceNumber>
 </AbsoluteSequenceNumber>
