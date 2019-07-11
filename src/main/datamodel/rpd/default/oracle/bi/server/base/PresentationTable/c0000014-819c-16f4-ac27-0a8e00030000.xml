@@ -16,4 +16,8 @@
 </PresentationColumn>
 <PresentationColumn mdsid="m00000000-e906-1749-9af1-0a80002d0000" name="Trade Price#1" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000074-1484-15ad-b23c-0a00020f0000">
 </PresentationColumn>
+<PresentationColumn mdsid="mc0000000-e9f1-1749-9af1-0a80002d0000" name="Commission#1" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m40000068-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
+<PresentationColumn mdsid="m80000000-eaaf-1749-9af1-0a80002d0000" name="Fee#1" hasDispName="false" hasDispDescription="false" overrideLogicalName="true" logicalColumnRef="/oracle/bi/server/base/LogicalTable/40000061-1484-15ad-b23c-0a00020f0000.xml#m4000006e-1484-15ad-b23c-0a00020f0000">
+</PresentationColumn>
 </PresentationTable>
